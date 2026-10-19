@@ -1,74 +1,65 @@
-# [Project name]
+# Bitcoin Game
 
-> **Hecho en Osa 2026** · Track: [Learning Game / Interactive Story / Social Impact Tool / Field Science / Built by Hand / Wildcard]
+> **Hecho en Osa 2026** · Track: Wildcard
 >
-> Write this README yourself, in English or Spanish. AI can help with your code, but this page is in your own words.
-> Escribe este README tú mismo, en inglés o español. La IA puede ayudarte con el código, pero esta página va con tus propias palabras.
+> A Spark Night prank by the Hecho en Osa team.
 
 ---
 
 ## 1. What it is / Qué es
-One sentence. Finish this: **"This project ________."**
+This project is a giant BITCOIN button that says "click me" and then does everything it can to stop you from clicking it.
 
 ## 2. Who made it / Quién lo hizo
-- Makers: [first names or GitHub usernames only, no surnames]
-- Mentor: [first name]
+- Maker: Anastasia
+- Idea: Zamir
+- Mentor: Trent
 
 ## 3. Try it / Pruébalo
-- Live link: [URL, if there is one]
-- Screenshot or short video: [image or link]
+- Live link: _coming soon_
 - How to run it on your own computer, step by step:
-  1.
-  2.
+  1. Download this repo (green **Code** button, then **Download ZIP**) and unzip it.
+  2. Open `index.html` in your browser. Use a mouse or a trackpad.
+
+**Keys:** `N` or `→` next prank · `R` restart this prank · `1` to `5` jump to a prank · `F` full screen
 
 ## 4. How it works / Cómo funciona
-Explain the main parts in your own words. Which file does what?
+Five pranks take turns, 20 seconds each. After all five, the screen says **PRANKED** and it starts again.
+
+1. **Shy:** the button runs away when you get close.
+2. **Mirror:** near the button, your mouse moves the wrong way.
+3. **Force field:** a bubble pushes your cursor back.
+4. **Clones:** the button splits into 12. Every one you click is a fake.
+5. **Crash:** you finally click it, and it shows a bouncing ERROR.
 
 | File or folder | What it does |
 |---|---|
-| `index.html` | |
-| | |
-
-The code itself should have comments that explain *why*, written by you.
+| `index.html` | The whole game: the button, the five pranks, the sparks and the fake cursor |
+| `PRD.md`, `TRD.md`, `PROMPT.md` | Planning pages from the Hecho en Osa template |
+| `sketches/`, `presentation/` | Drawings and final slides |
 
 ## 5. Tools we used / Herramientas
-Everything that helped: editors, AI tools, websites, hardware, tutorials, people.
 
 | Tool | What we used it for |
 |---|---|
-| e.g. Gemini / Copilot | e.g. turned our PRD into the first version of index.html |
-| | |
-
-Using AI is allowed and encouraged. Say what you used it for.
+| Claude Code | Set up this repo from the Hecho en Osa template and drafted this README |
 
 ## 6. Libraries / Librerías
-Any code you didn't write yourself (packages, frameworks, assets, sounds, images).
 
 | Library or asset | Link | Why we needed it |
 |---|---|---|
-| | | |
-
-None? Write "None".
+| Archivo Black and JetBrains Mono (Google Fonts) | https://fonts.google.com | The big button text and the small labels |
 
 ## 7. What works, what doesn't / Qué funciona y qué no
-- **Works:**
-- **Still broken:**
-- **If we had two more weeks:**
+- **Works:** all five pranks, the sparks, the attempt counter
+- **Still broken:** it needs a mouse. On a phone or tablet the pranks don't react to touch.
+- **If we had two more weeks:** touch support, so it works on phones too
 
 ## 8. Someone else tried it / Alguien más lo probó
-Who tried it (a friend, a parent, another team)? What confused them? What did they like?
+First test: Spark Night, Mon 19 Oct, Uvita.
 
 ## 9. Final presentation / Presentación final
 Put your Demo Day slides in the `presentation` folder as a PDF: `presentation/final.pdf`
 
-## 10. How we worked together / Cómo trabajamos juntos *(optional, for teams)*
-Did you use issues and pull requests? Who did what? What would you do differently?
-
 ---
 
-### ✅ In-hack checklist (all required before the deadline)
-- [ ] Sections 1–9 filled in
-- [ ] Code comments explain the main parts
-- [ ] `presentation/final.pdf` is in the repo
-- [ ] No passwords, API keys, phone numbers, emails, or photos of people's faces anywhere in the repo
-- [ ] Pushed to [github.com/hechoenosa](https://github.com/hechoenosa) by **Thu 10 Dec, 8 pm**
+Want to build something real? Turn your idea into something real at [thegift.is/hechoenosa](https://thegift.is/hechoenosa). Build it. Show it. Win.
