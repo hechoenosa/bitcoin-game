@@ -15,7 +15,7 @@ This project is a giant BITCOIN button that says "click me" and then does everyt
 - Mentor: Trent
 
 ## 3. Try it / Pruébalo
-- Live link: _coming soon_
+- Live link: https://sparknightbitcoingame.netlify.app
 - How to run it on your own computer, step by step:
   1. Download this repo (green **Code** button, then **Download ZIP**) and unzip it.
   2. Open `index.html` in your browser. Use a mouse or a trackpad.
@@ -34,6 +34,7 @@ Five pranks take turns, 20 seconds each. After all five, the screen says **PRANK
 | File or folder | What it does |
 |---|---|
 | `index.html` | The whole game: the button, the five pranks, the sparks and the fake cursor |
+| `favicon.svg`, `og-image.jpg` | The tab icon and the picture shown when the link is shared |
 | `PRD.md`, `TRD.md`, `PROMPT.md` | Planning pages from the Hecho en Osa template |
 | `sketches/`, `presentation/` | Drawings and final slides |
 
