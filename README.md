@@ -12,7 +12,7 @@ This project is a giant BITCOIN button that says "click me" and then does everyt
 ## 2. Who made it / Quién lo hizo
 - Maker: Anastasia
 - Idea: Zamir
-- Mentor: Trent
+- Helper: Trent
 
 ## 3. Try it / Pruébalo
 - Live link: https://sparknightbitcoingame.netlify.app
